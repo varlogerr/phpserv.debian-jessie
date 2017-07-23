@@ -17,5 +17,6 @@ Vagrant.configure("2") do |config|
     end
 
     server.vm.provision :shell, :path => "provisioning/provisioner-installer/debian-jessie.sh"
+    server.vm.provision :shell, :inline => "cd /vagrant/provisioning/ansible/ && sudo ansible-playbook vagrant.yml"
   end
 end

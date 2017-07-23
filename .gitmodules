@@ -1,3 +1,6 @@
 [submodule "provisioning/provisioner-installer"]
 	path = provisioning/provisioner-installer
 	url = https://github.com/varlogerr/ansible.installer.git
+[submodule "provisioning/ansible"]
+	path = provisioning/ansible
+	url = https://github.com/varlogerr/ansible.phpserv.git
