@@ -1,0 +1,3 @@
+[submodule "provisioning/provisioner-installer"]
+	path = provisioning/provisioner-installer
+	url = https://github.com/varlogerr/ansible.installer.git
